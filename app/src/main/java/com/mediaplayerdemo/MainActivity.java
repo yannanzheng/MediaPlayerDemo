@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button_pause.setOnClickListener(this);
 
 
-
-
     }
 
 
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
-        String path = Environment.getExternalStorageDirectory() + "/video123.mp4";
+        String path = Environment.getExternalStorageDirectory() + "/Video/VID_test.mp4";
 //        videoView.setVideoPath(path);
 //        Uri parse = Uri.parse(path);
         mediaPlayer = new MediaPlayer();
