@@ -1,0 +1,3 @@
+# MediaPlayerDemo
+Demo for MediaPlayer
+该demo演示最简单使用MediaPlayer的方式，演示了MediaPlayer配合TextureView的使用
